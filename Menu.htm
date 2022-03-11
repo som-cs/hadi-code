@@ -1,0 +1,1084 @@
+<html>
+<body>
+<div class="header">
+<img src="Icons/Logo.png" class="nav-logo"/>
+Up n' Smoke
+<img src="Icons/Logo.png" class="nav-logo"/>
+</div>
+<div class="row" style="overflow: hidden; margin: 0;padding-left: 5px;">
+<div class="filter" style="width:20%;padding:5px;">
+<div class="row">
+<span class="col-11 col-md-11 col-lg-11"><label class="filter-title">Filters</label></span>
+<span class="col-11 col-md-11 col-lg-11"><label class="filter-title">Search</label><br>
+<input type="text" id="search" style="color: #e73c7e" class="form-control"/>
+</span>
+<span class="col-lg-11 col-11 col-md-11 filter-section">
+<label class="filter-title">Strain</label><br>
+<div class="row">        
+            
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="strain" value="indica" class="toggle-btn" type="checkbox"><img src="Icons/Indica.png"><label class="toggle-lbl">indica</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="strain" value="hybrid" class="toggle-btn" type="checkbox"><img src="Icons/Hybrid.png"><label class="toggle-lbl">hybrid</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="strain" value="sativa" class="toggle-btn" type="checkbox"><img src="Icons/Sativa.png"><label class="toggle-lbl">sativa</label></label>
+
+</div>
+</span>
+<span class="col-11 col-md-11 col-lg-11 filter-section">
+<label class="filter-title">THC Level</label><br>
+<label>
+    <input type="checkbox" class="radio filter-check form-check-input" value="None" name="thc" />No THC</label><br>
+  <label>
+    <input type="checkbox" class="radio filter-check form-check-input" value="low" name="thc" />Low</label><br>
+  <label>
+    <input type="checkbox" class="radio filter-check form-check-input" value="medium" name="thc" />Medium</label><br>
+	  <label>
+    <input type="checkbox" class="radio filter-check form-check-input" value="high" name="thc" />High</label>
+	</span>
+<span class="col-lg-11 col-11 col-md-11 filter-section">
+<label class="filter-title">Flavor</label><br>
+<div class="row">        
+            
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="apple" class="toggle-btn" type="checkbox"><img src="Icons/Apple.png"><label class="toggle-lbl">apple</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="berry" class="toggle-btn" type="checkbox"><img src="Icons/Berry.png"><label class="toggle-lbl">berry</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="cherry" class="toggle-btn" type="checkbox"><img src="Icons/Cherry.png"><label class="toggle-lbl">cherry</label></label>
+
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="chocolate" class="toggle-btn" type="checkbox"><img src="Icons/Chocolate.png"><label class="toggle-lbl">chocolate</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="citrus" class="toggle-btn" type="checkbox"><img src="Icons/Citrus.png"><label class="toggle-lbl">citrus</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="cream" class="toggle-btn" type="checkbox"><img src="Icons/Cream.png"><label class="toggle-lbl">cream</label></label>
+
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="dessert" class="toggle-btn" type="checkbox"><img src="Icons/Dessert.png"><label class="toggle-lbl">dessert</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="earthy" class="toggle-btn" type="checkbox"><img src="Icons/Earthy.png"><label class="toggle-lbl">earthy</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="grape" class="toggle-btn" type="checkbox"><img src="Icons/Grape.png"><label class="toggle-lbl">grape</label></label>
+
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="grapefruit" class="toggle-btn" type="checkbox"><img src="Icons/Grapefruit.png"><label class="toggle-lbl">grapefruit</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="herbal" class="toggle-btn" type="checkbox"><img src="Icons/Herbal.png"><label class="toggle-lbl">herbal</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="honey" class="toggle-btn" type="checkbox"><img src="Icons/Honey.png"><label class="toggle-lbl">honey</label></label>
+
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="lavender" class="toggle-btn" type="checkbox"><img src="Icons/Lavender.png"><label class="toggle-lbl">lavender</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="lemon" class="toggle-btn" type="checkbox"><img src="Icons/Lemon.png"><label class="toggle-lbl">lemon</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="lime" class="toggle-btn" type="checkbox"><img src="Icons/Lime.png"><label class="toggle-lbl">lime</label></label>
+
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="minty" class="toggle-btn" type="checkbox"><img src="Icons/Minty.png"><label class="toggle-lbl">minty</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="nutty" class="toggle-btn" type="checkbox"><img src="Icons/Nutty.png"><label class="toggle-lbl">nutty</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="peppermint" class="toggle-btn" type="checkbox"><img src="Icons/Peppermint.png"><label class="toggle-lbl">peppermint</label></label>
+
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="pungent" class="toggle-btn" type="checkbox"><img src="Icons/Pungent.png"><label class="toggle-lbl">pungent</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="sweet" class="toggle-btn" type="checkbox"><img src="Icons/Sweet.png"><label class="toggle-lbl">sweet</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="vanilla" class="toggle-btn" type="checkbox"><img src="Icons/Vanilla.png"><label class="toggle-lbl">vanilla</label></label>
+
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="wood" class="toggle-btn" type="checkbox"><img src="Icons/Wood.png"><label class="toggle-lbl">wood</label></label>
+<label class="toggle-btn-lbl col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1"><input name="flavor" value="none" class="toggle-btn" type="checkbox"><img src="Icons/None.png"><label class="toggle-lbl">none</label></label>
+
+</div>
+</span>
+</div>
+</div>
+<div id="main" style="width: 80%">
+<div class="row" style="margin-top:30px">
+<button class="openbtn form-control" style="width: 90%; margin: 20px auto" onclick="openNav()">&#9776; Open Filter Sidebar</button>
+<h2>SHELF 25</h2>
+<div class="mySwiper Swiper25 col-12 col-md-12 col-lg-12">
+	<div class="swiper-wrapper"></div>
+</div>
+</div>
+<div class="row">
+<h2>SHELF 30</h2>
+
+<div class="mySwiper Swiper30 col-12 col-md-12 col-lg-12">
+	<div class="swiper-wrapper"></div>
+</div>
+
+</div>
+<div class="row">
+<h2>SHELF 40</h2>
+
+<div class="mySwiper Swiper40 col-12 col-md-12 col-lg-12">
+	<div class="swiper-wrapper"></div>
+</div>
+
+</div>
+<div class="row">
+<h2>SHELF 50</h2>
+
+<div class="mySwiper Swiper50 col-12 col-md-12 col-lg-12">
+	<div class="swiper-wrapper"></div>
+</div>
+
+</div>
+<div class="row">
+<h2>SHELF 60</h2>
+
+<div class="mySwiper Swiper60 col-12 col-md-12 col-lg-12">
+	<div class="swiper-wrapper"></div>
+</div>
+
+</div>
+<div class="row">
+<h2>SHELF 70</h2>
+<div class="mySwiper Swiper70 col-12 col-md-12 col-lg-12">
+	<div class="swiper-wrapper"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" data-bs-backdrop="static" id="flavorModal" tabindex="-1" style="important;overflow-x: hidden;
+    overflow-y: auto;">
+  <div class="modal-dialog modal-lg" style="height: 90%!">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title" id="exampleModalLabel">Flavor Details</h6>
+        <h6 class="modal-title" style="color: red; display:none;padding-left:50px;" id="comingSoon">       Coming Soon !</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+		<div class="col-6 col-md-6 col-lg-6" >
+		<img id="flavorFullImage" style="border-radius:15px;border:2px solid #e73c7e"/>
+		</div>
+		<div class="col-6 col-md-6 col-lg-6">
+		<label class="modalLabel" id="flavorNameModal"></label><br>
+		<label class="modalLabel" id="thcModal"></label><br>
+		<label class="modalLabel" id="descriptionModal"></label><br>
+		<label class="modalLabel" id="shelfNameModal"></label><br>
+		<label class="modalLabel" id="strainModal"></label><br>
+		<label class="modalLabel" id="MedicinalModal"></label><br>
+		<label class="modalLabel" id="TasteModal"></label>
+		</div>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="mobileCheck"><</span>
+<style>.footer,.generic-footer{margin-bottom:98px}@media (min-width:374px){.footer,.generic-footer{margin-bottom:78px}}@media (min-width:546px){.footer,.generic-footer{margin-bottom:56px}}@media (min-width:1055px){.footer,.generic-footer{margin-bottom:0}}.disclaimer{position:fixed;z-index:9999999;bottom:0;right:0;border-top:2px solid #ff5c62;text-align:center;font-size:14px;font-weight:400;background-color:#fff;padding:5px 10px 5px 10px}.disclaimer a:hover{text-decoration:underline}@media (min-width:1052px){.disclaimer{text-align:right;border-left:2px solid red;border-top-left-radius:10px}}@media (min-width:1920px){.disclaimer{width:60%}}</style><div class="disclaimer">We support Ukraine and condemn war. Push Russian government to act against war. Be brave, vocal and show your support to Ukraine. Follow the latest news <a title="https://www.bbc.com/news/live/world-europe-60517447" target="_blank" href="https://www.bbc.com/news/live/world-europe-60517447" style="color: black;"><b>HERE</b></a></div></body>
+<head>
+    <meta charset="utf-8" />
+    <title>UpnSmoke Menu</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"/></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+<style type="text/css">
+@media only screen and (max-width: 760px) {
+  .mobileCheck { display: none; }
+}
+.filter-section{
+border-bottom: 0.5px solid rgba(231,60,126,0.2);
+padding-bottom:30px;
+}
+.modalLabel{
+text-transform: uppercase;
+font-size: 18px;
+margin-bottom: 15px;
+}
+
+.toggle-btn-lbl img{
+object-fit: contain;
+width: 50px;
+height:auto;
+padding:3px;
+}
+.toggle-btn{-webkit-appearance: none; visibility: hidden; display: none;width:100%;height:100%; }
+.filter-title{
+margin-top: 35px;
+font-weight: bold;
+}
+.toggle-btn-lbl{box-shadow: -3px -3px 6px rgba(255,255,255,0.8), 2px 2px 4px rgba(0,0,0,0.2);    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center; }
+	.toggle-lbl{width:100%;text-align:center;font-family:Barlow Condensed;font-size:13px}
+*{
+font-family:Barlow Condensed;}
+.filter-check{
+margin-right:10px;
+}
+#flavorFullImage{
+width: 100%;
+object-fit:contain;
+}
+
+.filter{
+margin-top: 30px;
+background: white;
+    border-radius: 3px;
+	overflow:hidden;
+}
+body{
+
+    background: linear-gradient(45deg, #e73c7e, #000000,#e73c7e,#000000);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+.header{
+display: flex;
+align-content: center;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 2rem;
+font-family: Barlow Condensed;
+background: linear-gradient(-45deg, #e73c7e, #e73c7e,#e73c7e,#000000);
+background-size: 400% 400%;
+animation: gradient 5s ease infinite;
+box-shadow: 0 5px 5px rgb(59 59 59 / 75%);
+height: 5rem;
+width: 100%;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes breathe {
+  0% { opacity: 0 }
+  50% { opacity: 1 }
+  100% { opacity: 0 }
+}
+.nav-logo{
+    opacity: 1;
+    animation: breathe 5s linear infinite;
+}
+.slider-img{
+width:120px;
+height:120px;
+object-fit: contain;
+}
+.mySwiper {
+margin: 0 auto;
+margin-bottom: 30px;
+overflow: hidden;
+}
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    border-radius: 10px;
+	padding: 15px;
+      }
+.swiper-wrapper{
+align-items: flex-start!important;
+height: auto!important;
+}
+.outer-details{
+display:flex;
+flex-direction: column;
+justify-content: center;
+}
+.slider-text, .slider-text-mini{
+text-align:left;
+font-family: Barlow Condensed;
+text-transform: uppercase;
+
+}
+.slider-text{
+font-weight:bold;
+height:55px;
+display: flex!important;
+align-items: center;
+align-content: center;
+font-size: 18px;
+}
+.slider-text-mini{
+font-weight:400;
+font-size: 14px;
+}
+.flavor-text{
+font-size: 5px;
+}
+.icon-image{
+margin-top:5px;
+}
+h2{
+color:white;
+font-family: Barlow Condensed;
+}
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 10000; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color:white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #e73c7e;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: #e73c7e;
+  padding: 10px 15px;
+  margin-bottom:20px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+body {
+  transition: margin-left .5s; /* If you want a transition effect */
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.ui-autocomplete{
+    
+    z-index:999999999!important;
+}
+</style>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+var items = [];
+var isMobile = false;
+$(document).ready(function(){
+    $('.openbtn').hide();
+    if($('.mobileCheck').css('display') == 'none'){
+    $('.filter').wrap( '<div id="mySidebar" class="sidebar"></div>' ) ;
+    $('#mySidebar').prepend('<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>');
+    $("#mySidebar").prependTo("body");
+
+    $('.filter').css('width','100%');
+    $('#main').css('width','100%');
+    $('.openbtn').show();
+    $('.toggle-btn-lbl').removeClass('col-5 col-lg-5 col-md-5 offset-1 offset-md-1 offset-lg-1').addClass('col-3 col-lg-3 col-md-3 offset-1 offset-md-1 offset-lg-1');
+    isMobile = true;
+    }
+  $('.disclaimer').hide();
+	  $("input:checkbox").on('click', function() {
+  // in the handler, 'this' refers to the box clicked on
+  var $box = $(this);
+  if ($box.is(":checked")) {
+    // the name of the box is retrieved using the .attr() method
+    // as it is assumed and expected to be immutable
+    var group = "input:checkbox[name='" + $box.attr("name") + "']";
+    // the checked state of the group/box on the other hand will change
+    // and the current value is retrieved using .prop() method
+    $(group).prop("checked", false);
+    $box.prop("checked", true);
+  } else {
+    $box.prop("checked", false);
+  }
+  $('.toggle-btn-lbl').css('background','transparent');
+  $(this).parent().css('transform','scale(1)');
+  $('.swiper-slide').show();
+  var flavor = "All";
+  var thc = "All";
+  var strain = "All";
+  $.each($("input[name='flavor']:checked"), function(){
+                 flavor = $(this).val();
+				$(this).parent().css('background','rgba(231,60,126,0.2)');
+				$(this).parent().css('transform','scale(0.95)');
+            });
+    $.each($("input[name='strain']:checked"), function(){
+                 strain = $(this).val();
+				$(this).parent().css('background','rgba(231,60,126,0.2)');
+				$(this).parent().css('transform','scale(0.95)');
+            });
+			
+      $.each($("input[name='thc']:checked"), function(){
+                thc = $(this).val();
+            });
+  
+  $.each($('.swiper-slide'),function(){
+  var flvs = $(this).data('flavor').split(',');
+  var thc_level = $(this).data('thc').replaceAll('%','');
+  var strn = $(this).data('strain').split(',');
+  for(z=0;z<flvs.length;z++)
+  flvs[z] = flvs[z].trim().toLowerCase();
+    for(z=0;z<thc_level.length;z++)
+  thc_level[z] = thc_level[z].trim().toLowerCase();
+    for(z=0;z<strn.length;z++)
+  strn[z] = strn[z].trim().toLowerCase();
+
+  if(
+  (flvs.includes(flavor) || flavor == "All" )
+  && (strn.includes(strain) || strain == "All" )
+  ){
+  
+  $(this).show();
+
+    				switch(thc){
+				case 'low':
+				if(thc_level <= 10)
+				$(this).show();
+				else
+				$(this).hide();
+				break;
+				case 'All': 
+				$(this).show();break;
+				case 'medium':
+				if(thc_level <= 20)
+				$(this).show();
+				else
+				$(this).hide();break;
+				case 'high':
+				if(thc_level > 20)
+				$(this).show();
+				else
+				$(this).hide();break;
+				case 'None':
+				if(thc_level.toUpperCase() == 'NONE')
+				$(this).show();
+				else
+				$(this).hide();
+				break;
+				}
+  }
+  else{
+  $(this).hide();
+  }
+  
+  
+  
+  
+  });
+  swiper25.update();
+  swiper30.update();
+  swiper40.update();
+  swiper50.update();
+  swiper60.update();
+  swiper70.update();
+});
+	  for(i = 0; i< data.length; i++){
+	  var icons = '';
+	  var name = data[i].Flavor_Name.replaceAll('-',' ');
+	  items.push(name);
+	  var photo = data[i].Flavor_Name;
+	  var effects = data[i].Effects;
+	  var taste = data[i].Taste_Notes;
+	  var taste_items = taste.split(',');
+	  for(y =0; y < taste_items.length ;y++){
+	  if(y == 4)break;
+	  var fa = '<img style="width:30px;height:auto;object-fit:contain;margin-right:5px;" src="http://upnsmokemenu.000webhostapp.com/UpnSmoke2/Icons/'+taste_items[y].trim()+'.png" class="icon-image"/>'
+	  icons += fa;
+	  if(y == 1)
+	  icons += '<br>';
+	  }
+      var coming_soon = data[i].Coming_Soon == true?'<label class="slider-text-mini" style="color:red;font-weight:400;font-size:16px">Coming Soon</label>':'<label class="slider-text-mini" style="color:transparent;font-weight:400;font-size:16px">Place Holder</label>';
+	  var medicine = data[i].Medicinal_Qualities;
+	  var thc = data[i].THC_Level;
+	  var shelf = data[i].Shelf_Name;
+	  var strain = data[i].Strain;
+	  var html='<div class="swiper-slide" data-name="'+data[i].Flavor_Name+'" data-strain="'+strain+'" data-flavor="'+taste+'" data-thc="'+thc+'">\
+	  <div style="display:block;margin-bottom:10px;">\
+	  <img class="slider-img" src="http://upnsmokemenu.000webhostapp.com/UpnSmoke2/Thumbs/'+photo+'.png">\
+	  </div>\
+	  <label style="display:block" class="slider-text">'+name+'</label>\
+	  <div class="row">\
+	  <div class="outer-details col-6 col-md-6 col-lg-6">\
+	  <label class="slider-text-mini">THC '+thc+'</label>\
+	  <label class="slider-text-mini">Shelf '+shelf+'</label>\
+	  </div>\
+	  <div class="col-6 col-md-6 col-lg-6"><div style="display:block;min-height:75px">'
+	  +
+	  icons
+	  +
+	  '</div></div>\
+	  </div>'+coming_soon+'</div>';
+	  $('.Swiper'+shelf+' .swiper-wrapper').prepend(html);
+	  } 
+	  $( function() {
+    $( "#search" ).autocomplete({
+      source: items,
+	  select: function (event, ui) {
+    var value = ui.item.value.replaceAll(' ','-');
+$('*[data-name="'+value+'"]').trigger('click');
+if(isMobile)
+closeNav();
+}
+    });
+  } );
+
+  
+      var swiper25 = new Swiper(".Swiper25", {
+            pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+	    preloadImages: false,
+		// Enable lazy loading
+		lazy: false,
+        spaceBetween: 15,
+        slidesPerGroup: 1,
+		slidesPerView: isMobile?1:3,
+        loop: false,
+        loopFillGroupWithBlank: false,
+        grabCursor: true,
+      });
+      var swiper30 = new Swiper(".Swiper30", {
+            pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+	    preloadImages: false,
+		// Enable lazy loading
+		lazy: false,
+        spaceBetween: 15,
+        slidesPerGroup: 1,
+		slidesPerView: isMobile?1:3,
+        loop: false,
+        loopFillGroupWithBlank: false,
+
+        grabCursor: true,
+      });
+	  var swiper40 = new Swiper(".Swiper40", {
+	        pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+	    preloadImages: false,
+		// Enable lazy loading
+		lazy: false,
+        spaceBetween: 15,
+        slidesPerGroup: 1,
+		slidesPerView: isMobile?1:3,
+        loop: false,
+        loopFillGroupWithBlank: false,
+
+        grabCursor: true,
+      });
+	  var swiper50 = new Swiper(".Swiper50", {
+	        pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+	    preloadImages: false,
+		// Enable lazy loading
+		lazy: false,
+        spaceBetween: 15,
+        slidesPerGroup: 1,
+		slidesPerView: isMobile?1:3,
+        loop: false,
+        loopFillGroupWithBlank: false,
+        grabCursor: true,
+      });
+	  var swiper60 = new Swiper(".Swiper60", {
+	        pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+	    preloadImages: false,
+		// Enable lazy loading
+		lazy: false,
+        spaceBetween: 15,
+        slidesPerGroup: 1,
+		slidesPerView: isMobile?1:3,
+        loop: false,
+        loopFillGroupWithBlank: false,
+
+        grabCursor: true,
+      });
+	  var swiper70 = new Swiper(".Swiper70", {
+	        pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+	    preloadImages: false,
+		// Enable lazy loading
+		lazy: false,
+        spaceBetween: 15,
+        slidesPerGroup: 1,
+		slidesPerView: isMobile?1:3,
+        loop: false,
+        loopFillGroupWithBlank: false,
+        grabCursor: true,
+      });
+	  
+	  $('.swiper-slide').click(function(){
+for(i=0;i<data.length;i++){
+if(data[i].Flavor_Name == $(this).data('name')){
+if(data[i].Coming_Soon == true){
+    $('#comingSoon').show();
+}
+else
+$('#comingSoon').hide();
+$('#flavorFullImage').attr('src','Images/'+data[i].Flavor_Name+'.png');
+$('#flavorNameModal').text(data[i].Flavor_Name);
+$('#thcModal').text('THC Level: '+data[i].THC_Level);
+$('#descriptionModal').text('Description: '+data[i].Effects);
+$('#shelfNameModal').text('Shelf Name: '+data[i].Shelf_Name);
+$('#strainModal').text('Strain: '+data[i].Strain);
+$('#MedicinalModal').text('Medicinal Qualities: '+data[i].Medicinal_Qualities);
+$('#TasteModal').text('Taste: '+data[i].Taste_Notes);
+$('#flavorModal').modal('show');
+break;}}
+});
+});
+var data = 
+[
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "AF-Factory",
+        "Taste_Notes": "Sweet, Earthy",
+        "Medicinal_Qualities": "Mood, Energy",
+        "THC_Level": "29%",
+        "Shelf_Name": "70",
+        "Strain": "Hybrid",
+        "Effects": "Apple Fritter, a true hybrid strain, is known for its powerful and relaxing high. This strain allows you to enjoy an evening without losing your cool.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Animal-Mint",
+        "Taste_Notes": "Sweet, Pungent",
+        "Medicinal_Qualities": "Stress",
+        "THC_Level": "27%",
+        "Shelf_Name": "50",
+        "Strain": "Hybrid",
+        "Effects": "Animal Mints produces a strong body and head high, making it ideal for after work and evening use. ",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Apes-N-Space",
+        "Taste_Notes": "Vanilla, Earthy",
+        "Medicinal_Qualities": "Mood, Energy",
+        "THC_Level": "27%",
+        "Shelf_Name": "50",
+        "Strain": "Indica ",
+        "Effects": "this indica is known for providing carefree relaxation that can help. ",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Apple-Fritters",
+        "Taste_Notes": "Earthy, Apple",
+        "Medicinal_Qualities": "Anxiety, Relaxation",
+        "THC_Level": "25%",
+        "Shelf_Name": "40",
+        "Strain": "Hybrid",
+        "Effects": "Apple Fritter is a strain with secret origins. ver realxing high without all the down effects",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Apple-Pie",
+        "Taste_Notes": "Apple, Vanilla",
+        "Medicinal_Qualities": "Mood, functionality",
+        "THC_Level": "26%",
+        "Shelf_Name": "40",
+        "Strain": "Sativa",
+        "Effects": "Though potently euphoric, apple pie effects leave mental clarity for you to stay functional and engaged throughout the day’s tasks.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Caked-up-Cherry",
+        "Taste_Notes": "Berry, Sweet",
+        "Medicinal_Qualities": "Uplifting, Relaxation",
+        "THC_Level": "28%",
+        "Shelf_Name": "50",
+        "Strain": "Hybrid",
+        "Effects": "this strain makes them feel euphoric, relaxed, and uplifted.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Cali-Cookie",
+        "Taste_Notes": "Vanilla, Earthy",
+        "Medicinal_Qualities": "Energy, Mood",
+        "THC_Level": "28%",
+        "Shelf_Name": "40",
+        "Strain": "Sativa",
+        "Effects": "known to provide uplifting, energizing effects.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Carbon-Fiber",
+        "Taste_Notes": "Lime, Earthy",
+        "Medicinal_Qualities": "uplifting, medicinal",
+        "THC_Level": "27%",
+        "Shelf_Name": "60",
+        "Strain": "Hybrid",
+        "Effects": "heavy with crystals, and usually have plenty of red hairs. Consumers like this strain for its refreshing lime taste and its potency. This hybrid can offer uplifting cerebral effects, making it a popular choice for those treating depression and anxiety.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Cherry-Pie",
+        "Taste_Notes": "Cherry, Sweet",
+        "Medicinal_Qualities": "Stress, Anxiety",
+        "THC_Level": "25%",
+        "Shelf_Name": "25",
+        "Strain": "Hybrid",
+        "Effects": "In terms of effects, this strain is more energizing than calming. The energizing effects of this strain make it a great candidate for wake and bake sessions",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Cookies",
+        "Taste_Notes": "Earthy",
+        "Medicinal_Qualities": "relaxation, insomnia, sleep",
+        "THC_Level": "24%",
+        "Shelf_Name": "25",
+        "Strain": "Indica",
+        "Effects": "None",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Cookies-N-Cream-Factory",
+        "Taste_Notes": "Sweet",
+        "Medicinal_Qualities": "relief, sleep aid in high doses",
+        "THC_Level": "29%",
+        "Shelf_Name": "70",
+        "Strain": "Hybrid",
+        "Effects": "This sweet-tasting variety provides long-lasting relief for patients treating symptoms throughout the day, but high doses can induce an early night’s sleep.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Crushers-Factory",
+        "Taste_Notes": "Minty, Vanilla",
+        "Medicinal_Qualities": "Focus, Mood",
+        "THC_Level": "29%",
+        "Shelf_Name": "70",
+        "Strain": "hybrid",
+        "Effects": "This strain produces a euphoric high with mentally uplifting effects. me",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "FC Factory",
+        "Taste_Notes": "Earthy, Honey",
+        "Medicinal_Qualities": "Energy, Mood",
+        "THC_Level": "30%",
+        "Shelf_Name": "70",
+        "Strain": "Hybrid",
+        "Effects": "This strain usually induces a soaring, long-lasting buzz perfect for creative escapes, but can push past the confines of a subtle buzz into the weighty “couch-lock” effects when consumed in higher doses.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Forum-Cut-Cookies",
+        "Taste_Notes": "Earthy, Wood",
+        "Medicinal_Qualities": "Relaxation, Sleep",
+        "THC_Level": "26%",
+        "Shelf_Name": "40",
+        "Strain": "Hybrid",
+        "Effects": "People may be left feeling a stimulating head high that elevates the mind and expands consciousness.",
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Girl-Scout-Cookies-Factory",
+        "Taste_Notes": "Minty, Sweet, Cherry, Lemon",
+        "Medicinal_Qualities": "chronic pain, nausea, and appetite loss.",
+        "THC_Level": "31%",
+        "Shelf_Name": "70",
+        "Strain": "Hybrid",
+        "Effects": "his popular strain is known for producing euphoric effects, followed up by waves of full-body relaxation. One hit of GSC will leave you feeling happy, hungry, and stress-free.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : true,
+        "Flavor_Name": "GreenLime-OG-Factory",
+        "Taste_Notes": "Sweet, Citrus",
+        "Medicinal_Qualities": "energizing effects",
+        "THC_Level": "29%",
+        "Shelf_Name": "70",
+        "Strain": "Sativa",
+        "Effects": "Great for daytime smoking/ uplifting mind effects with a calm feeling throughout the body",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Glue",
+        "Taste_Notes": "Earthy, Lime",
+        "Medicinal_Qualities": "",
+        "THC_Level": "26%",
+        "Shelf_Name": "25",
+        "Strain": "Indica",
+        "Effects": "People that smoked this strain say it makes them stick to the couch, and much all day with an extreme mood boost",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Gorilla-Sunset",
+        "Taste_Notes": "Earthy, Pungent",
+        "Medicinal_Qualities": "Anxiety, Pain Relief",
+        "THC_Level": "28%",
+        "Shelf_Name": "50",
+        "Strain": "Hybrid",
+        "Effects": "thoug its a sativa, this strain will leave you glued to the couch with a long lasting head high.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Grape-Ape",
+        "Taste_Notes": "Grape, Sweet",
+        "Medicinal_Qualities": "Pain Relief, Stress",
+        "THC_Level": "23%",
+        "Shelf_Name": "40",
+        "Strain": "Indica",
+        "Effects": "Named for its distinct grape-like smell, this indica is known for providing carefree relaxation that can help soothe pain, stress, and anxiety.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Grape-Fruit-Glue",
+        "Taste_Notes": "Grapefruit, Citrus",
+        "Medicinal_Qualities": "Anxiety, Mood",
+        "THC_Level": "24%",
+        "Shelf_Name": "40",
+        "Strain": "Hybrid",
+        "Effects": "The effects of Grapefruit are energizing and produce feelings of happiness.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Hot-Links",
+        "Taste_Notes": "Sweet, Nutty",
+        "Medicinal_Qualities": "Uplifting, Focus",
+        "THC_Level": "24%",
+        "Shelf_Name": "50",
+        "Strain": "Hybrid",
+        "Effects": "effects are euphoric and have relaxing powers that keep stress and pain to a minimum. Medical marijuana patients choose this strain to help manage chronic pain.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Ice-Cream-Cake",
+        "Taste_Notes": "Vanilla, Cream",
+        "Medicinal_Qualities": "Relaxation, Insomnia",
+        "THC_Level": "25%",
+        "Shelf_Name": "30",
+        "Strain": "Hybrid",
+        "Effects": "This strain offers sedating effects that leave your mind and body completely relaxed.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Ice-Cream-Sherbert",
+        "Taste_Notes": "Sweet, Dessert",
+        "Medicinal_Qualities": "Mood, Stress",
+        "THC_Level": "26%",
+        "Shelf_Name": "60",
+        "Strain": "Hybrid",
+        "Effects": "his strain exhibits powerful, full-body effects that are elevated by a jolt of cerebral energy and carefree state of mind.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "LA-Kush-Cake",
+        "Taste_Notes": "Vanilla, Peppermint",
+        "Medicinal_Qualities": "Insomnia, Pain Relief",
+        "THC_Level": "22%",
+        "Shelf_Name": "60",
+        "Strain": "Indica",
+        "Effects": null,
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : true,
+        "Flavor_Name": "Lemon-Cherry-Gelatto",
+        "Taste_Notes": "Cherry, Lemon",
+        "Medicinal_Qualities": "relaxation, nice head-buzz with mood boost",
+        "THC_Level": "32%",
+        "Shelf_Name": "70",
+        "Strain": "Hybrid",
+        "Effects": "The effects position themselves with gentle full-body relaxation and a nice head-buzz that would be best for anyone needing muscle relief and mood elevation.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Mac-Factory",
+        "Taste_Notes": "Vanilla, Chocolate",
+        "Medicinal_Qualities": "Stress, Depression",
+        "THC_Level": "30%",
+        "Shelf_Name": "70",
+        "Strain": "Hybrid",
+        "Effects": "Mac 1 is a popular strain that consumers turn to for upbeat and balancing effects. But Mac 1 is special because not just anyone can grow it.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Pluto",
+        "Taste_Notes": "Lavender",
+        "Medicinal_Qualities": "Migraines, Pain Relief",
+        "THC_Level": "28%",
+        "Shelf_Name": "60",
+        "Strain": "Indica",
+        "Effects": "Pluto may no longer be a planet, but that doesn’t debase the cosmic makeup of this charming indica. provides instant physical relief while maintaining steady cerebral stimulation.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Purple-Cool-Aid",
+        "Taste_Notes": "Lemon, Berry",
+        "Medicinal_Qualities": "Anxiety, Energy",
+        "THC_Level": "28%",
+        "Shelf_Name": "50",
+        "Strain": "Hybrid",
+        "Effects": "The potency of this strain gives the consumer a one-two punch to the head and body, initially landing between the eyes and settling down into the limbs.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Space-Runtz",
+        "Taste_Notes": "Earthy, Herbal",
+        "Medicinal_Qualities": "Insomnia, Anxiety",
+        "THC_Level": "25%",
+        "Shelf_Name": "60",
+        "Strain": "Indica",
+        "Effects": "This strain provides effects that intensely trippy and speedy. If you enjoy a buzzy head high, space-runtz is your ticket",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "Wedding-Cake",
+        "Taste_Notes": "Earthy, Peppermint",
+        "Medicinal_Qualities": "Appetite, Insomnia",
+        "THC_Level": "25%",
+        "Shelf_Name": "40",
+        "Strain": "Hybrid",
+        "Effects": "The Wedding Cake strain provides relaxing and euphoric effects that calm the body and mind.",
+        
+        
+        
+        
+    },
+    {
+        "Coming_Soon" : false,
+        "Flavor_Name": "White-Runtz",
+        "Taste_Notes": "Sweet, Earthy",
+        "Medicinal_Qualities": "Relaxation, Pain Relief",
+        "THC_Level": "29%",
+        "Shelf_Name": "60",
+        "Strain": "Hybrid",
+        "Effects": "White Runtz is a potent hybrid marijuana strain made by crossing Gelato and Zkittlez. White Runtz produces long-lasting effects that are relaxing and tingly",
+        
+        
+        
+        
+    }
+]
+;
+</script>
+</head>
+</html>
